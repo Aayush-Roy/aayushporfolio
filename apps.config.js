@@ -28,8 +28,8 @@ const apps = [
         screen: displayTerminalCalc,
     },
     {
-        id: "about-vivek",
-        title: "About Vivek",
+        id: "about-aayush",
+        title: "About Aayush",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,
@@ -98,19 +98,19 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         isExternalApp: true,
-        url: "https://github.com/vivek9patel",
+        url: "https://github.com/Aayush-Roy",
         screen: () => {},
     },
-    {
-        id: "tars",
-        title: "Ask Tars",
-        icon: './themes/Yaru/apps/tars.svg',
-        disabled: false,
-        favourite: false,
-        desktop_shortcut: true,
-        isExternalApp: true,
-        url: "https://www.vivek9patel.com/tars"
-    },
+    // {
+    //     id: "tars",
+    //     title: "Ask Tars",
+    //     icon: './themes/Yaru/apps/tars.svg',
+    //     disabled: false,
+    //     favourite: false,
+    //     desktop_shortcut: true,
+    //     isExternalApp: true,
+    //     url: "https://www.vivek9patel.com/tars"
+    // },
 ]
 
 export default apps;
